@@ -10,7 +10,6 @@ int main(){
     for(i=0;i<=10;i++){
       a=b;
       b=c;
-
       c=a+b;
       printf("%d\n",c);
     }
