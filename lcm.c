@@ -7,10 +7,10 @@ int main(){
     scanf("%d",&b);
     for(int i=1;i<=a&&i<=b;i++){
         if(a%i==0&&b%i==0){
-            gcd=i;
+            lcm=i;
         }
     }
-    lcm=a*b/gcd;
-    printf("%d\n",lcm);
+    gcd=a*b/lcm;
+    printf("%d\n",gcd);
     return 0;
 }
